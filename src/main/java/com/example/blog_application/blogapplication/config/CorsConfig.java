@@ -16,7 +16,7 @@ public class CorsConfig {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**")
-                        .allowedOrigins("*") // Specify the allowed origins (e.g., "http://localhost:3000")
+                        .allowedOrigins("https://blogsapplications.netlify.app") // Specify the allowed origins (e.g., "http://localhost:3000")
                         .allowedMethods("GET", "POST", "PUT", "DELETE") // Specify the allowed HTTP methods
                         .allowedHeaders("*"); // Specify the allowed headers
             }
